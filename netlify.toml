@@ -1,0 +1,16 @@
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Permissions-Policy = "interest-cohort=()"
+
+[[redirects]]
+  from = "http://llama.studio/work/*"
+  to = "http://llama.studio"
+  status = 301
+  force = true
+  
+[[redirects]]
+from = "http://llama.studio/portfolio/*"
+to = "http://llama.studio"
+status = 301
+force = true

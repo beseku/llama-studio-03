@@ -1,0 +1,14 @@
+{
+	"name": "LLama Studio",
+  "license": "",
+  "licenselink": "",
+  "description": "",
+  "homepage": "",
+  "tags": [],
+  "features": [],
+  "min_version": "0.110.0",
+  "author": {
+		"name": "Ben Sekulowicz-Barclay",
+		"homepage": "https://beseku.com"
+  }
+}
