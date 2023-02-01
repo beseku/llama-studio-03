@@ -5,6 +5,8 @@
 		<meta content="width=device-width, initial-scale=1" name="viewport">
 		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
 		
+		<meta content="{{ $.Site.BaseURL }}humans.txt" name="author">
+		
 		<title>
 			{{ .Params.Title }}&thinsp;&mdash;&thinsp;{{ .Site.Title }}
 		</title>
@@ -45,7 +47,6 @@
 		
 		{{ $stylesheet := $stylesheets | resources.Concat "stylesheets/orikaban" | toCSS | resources.Minify | fingerprint }}
 		<link href="{{ $stylesheet.RelPermalink }}" integrity="{{ $stylesheet.Data.Integrity }}" rel="stylesheet" type="text/css" />
-		
 	</head>
 	<body id="ue">
 		<div class="l_page">
